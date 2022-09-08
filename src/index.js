@@ -30,7 +30,7 @@ function main() {
         })
         .then(function (data) {
             console.log(data[1]);
-            displayImageForRamen(data1[1]);
+            displayImageForRamen(data[1]);
         }
         );
 
