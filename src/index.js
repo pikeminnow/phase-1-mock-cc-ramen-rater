@@ -30,7 +30,8 @@ function main() {
         })
         .then(function (data) {
             console.log(data[1]);
-            displayImageForRamen(data[1]);
+            data.forEach(displayImageForRamen);
+            // displayImageForRamen(data[1]);
         }
         );
 
